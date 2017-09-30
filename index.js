@@ -10,10 +10,11 @@ function yourAnimal() {
   // and the above function both pass?
   // P.S.: You can't just hard-code 'cat' below
   return animal
+  return myAnimal()
 }
 
 
-var yourAnimal = myAnimal()
+
 
 function add2(n) {
   return n + two
